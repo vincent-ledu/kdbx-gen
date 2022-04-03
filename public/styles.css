@@ -1,0 +1,17 @@
+.jumbotron {
+  background: rgb(75, 75, 255);
+}
+body {
+  padding-top: 50px;
+}
+.login_oueter {
+  width: 360px;
+  max-width: 100%;
+}
+.logo_outer {
+  text-align: center;
+}
+.logo_outer img {
+  width: 120px;
+  margin-bottom: 40px;
+}

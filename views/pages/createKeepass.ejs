@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application -->
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('../partials/header'); %></header>
+
+    <main>
+      <div class="jumbotron">
+        <h1>Keepass creator</h1>
+        <p>Paste csv file with secrets</p>
+        <form action="/kdbx" method="POST">
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <div class="input-group mb-3">
+              <textarea
+                class="form-control"
+                name="csv"
+                id="csv"
+                placeholder="login\tpassword\tinformations"
+                rows="12"
+              ></textarea>
+            </div>
+            <div class="input-group mb-3">
+              <button class="btn btn-primary" type="submit" name="signin">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+  </body>
+</html>

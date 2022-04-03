@@ -1,0 +1,30 @@
+2022-04-03 21:35:12:3512 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:36:21:3621 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:36:51:3651 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:37:45:3745 [37mdebug[39m: [37m[37mdebug[37m[39m
+2022-04-03 21:37:45:3745 [37mdebug[39m: [37m[37mdebug[37m[39m
+2022-04-03 21:38:38:3838 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:38:43:3843 [37mdebug[39m: [37m{}[39m
+2022-04-03 21:39:15:3915 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:42:36:4236 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:43:25:4325 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:43:42:4342 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:43:48:4348 [32minfo[39m: [32m{[39m
+[32m  content: 'login\tpassword\tinfo\r\ntest\tsecret123\tinfo de la balle\r\n',[39m
+[32m  signin: ''[39m
+[32m}[39m
+2022-04-03 21:50:19:5019 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:50:37:5037 [32minfo[39m: [32m{[39m
+[32m  content: 'login\tpassword\tinfo\r\ntest\tsecret123\tinfo de la balle\r\n',[39m
+[32m  signin: ''[39m
+[32m}[39m
+2022-04-03 21:51:49:5149 [32minfo[39m: [32m{[39m
+[32m  csv: 'login\tpassword\tinfo\r\ntest\tsecret123\tinfo de la balle\r\n',[39m
+[32m  signin: ''[39m
+[32m}[39m
+2022-04-03 21:51:49:5149 [31merror[39m: [31mThe first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function save[39m
+2022-04-03 21:53:11:5311 [32minfo[39m: [32mListening server on port 3000[39m
+2022-04-03 21:53:20:5320 [32minfo[39m: [32m{[39m
+[32m  csv: 'login\tpassword\tinfo\r\ntest\tsecret123\tinfo de la balle\r\n',[39m
+[32m  signin: ''[39m
+[32m}[39m
